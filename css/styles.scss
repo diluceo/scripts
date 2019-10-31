@@ -6,3 +6,591 @@ body {
     padding: 0;
   }
 }
+
+html {
+  --accent: #493eff;
+  --dark-accent: #1b1854;
+  --light-accent: #d6d4f3;
+  --lighter-accent: #f4f3ff;
+  --lightest-accent: #fcfcff;
+}
+
+@keyframes rightToLeftXWhite {
+  0% {
+    background: linear-gradient(0deg, #ffffff 0%, transparent 0%);
+  }
+
+  5% {
+    background: linear-gradient(0deg, #ffffff 5%, transparent 5%);
+  }
+
+  10% {
+    background: linear-gradient(0deg, #ffffff 10%, transparent 10%);
+  }
+
+  15% {
+    background: linear-gradient(0deg, #ffffff 15%, transparent 15%);
+  }
+
+  20% {
+    background: linear-gradient(0deg, #ffffff 20%, transparent 20%);
+  }
+
+  25% {
+    background: linear-gradient(0deg, #ffffff 25%, transparent 25%);
+  }
+
+  30% {
+    background: linear-gradient(0deg, #ffffff 30%, transparent 30%);
+  }
+
+  35% {
+    background: linear-gradient(0deg, #ffffff 35%, transparent 35%);
+  }
+
+  40% {
+    background: linear-gradient(0deg, #ffffff 40%, transparent 40%);
+  }
+
+  45% {
+    background: linear-gradient(0deg, #ffffff 45%, transparent 45%);
+  }
+
+  50% {
+    background: linear-gradient(0deg, #ffffff 50%, transparent 50%);
+  }
+
+  55% {
+    background: linear-gradient(0deg, #ffffff 55%, transparent 55%);
+  }
+
+  60% {
+    background: linear-gradient(0deg, #ffffff 60%, transparent 60%);
+  }
+
+  65% {
+    background: linear-gradient(0deg, #ffffff 65%, transparent 65%);
+  }
+
+  70% {
+    background: linear-gradient(0deg, #ffffff 70%, transparent 70%);
+  }
+
+  75% {
+    background: linear-gradient(0deg, #ffffff 75%, transparent 75%);
+  }
+
+  80% {
+    background: linear-gradient(0deg, #ffffff 80%, transparent 80%);
+  }
+
+  85% {
+    background: linear-gradient(0deg, #ffffff 85%, transparent 85%);
+  }
+
+  90% {
+    background: linear-gradient(0deg, #ffffff 90%, transparent 90%);
+  }
+
+  95% {
+    background: linear-gradient(0deg, #ffffff 95%, transparent 95%);
+  }
+
+  100% {
+    background: linear-gradient(0deg, #ffffff 100%, transparent 100%);
+  }
+}
+
+@keyframes leftToRightXWhite {
+  0% {
+    background: linear-gradient(180deg, #ffffff 0%, transparent 0%);
+  }
+
+  5% {
+    background: linear-gradient(180deg, #ffffff 5%, transparent 5%);
+  }
+
+  10% {
+    background: linear-gradient(180deg, #ffffff 10%, transparent 10%);
+  }
+
+  15% {
+    background: linear-gradient(180deg, #ffffff 15%, transparent 15%);
+  }
+
+  20% {
+    background: linear-gradient(180deg, #ffffff 20%, transparent 20%);
+  }
+
+  25% {
+    background: linear-gradient(180deg, #ffffff 25%, transparent 25%);
+  }
+
+  30% {
+    background: linear-gradient(180deg, #ffffff 30%, transparent 30%);
+  }
+
+  35% {
+    background: linear-gradient(180deg, #ffffff 35%, transparent 35%);
+  }
+
+  40% {
+    background: linear-gradient(180deg, #ffffff 40%, transparent 40%);
+  }
+
+  45% {
+    background: linear-gradient(180deg, #ffffff 45%, transparent 45%);
+  }
+
+  50% {
+    background: linear-gradient(180deg, #ffffff 50%, transparent 50%);
+  }
+
+  55% {
+    background: linear-gradient(180deg, #ffffff 55%, transparent 55%);
+  }
+
+  60% {
+    background: linear-gradient(180deg, #ffffff 60%, transparent 60%);
+  }
+
+  65% {
+    background: linear-gradient(180deg, #ffffff 65%, transparent 65%);
+  }
+
+  70% {
+    background: linear-gradient(180deg, #ffffff 70%, transparent 70%);
+  }
+
+  75% {
+    background: linear-gradient(180deg, #ffffff 75%, transparent 75%);
+  }
+
+  80% {
+    background: linear-gradient(180deg, #ffffff 80%, transparent 80%);
+  }
+
+  85% {
+    background: linear-gradient(180deg, #ffffff 85%, transparent 85%);
+  }
+
+  90% {
+    background: linear-gradient(180deg, #ffffff 90%, transparent 90%);
+  }
+
+  95% {
+    background: linear-gradient(180deg, #ffffff 95%, transparent 95%);
+  }
+
+  100% {
+    background: linear-gradient(180deg, #ffffff 100%, transparent 100%);
+  }
+}
+
+@keyframes rightToLeftX {
+  0% {
+    background: linear-gradient(0deg, var(--accent) 0%, transparent 0%);
+  }
+
+  5% {
+    background: linear-gradient(0deg, var(--accent) 5%, transparent 5%);
+  }
+
+  10% {
+    background: linear-gradient(0deg, var(--accent) 10%, transparent 10%);
+  }
+
+  15% {
+    background: linear-gradient(0deg, var(--accent) 15%, transparent 15%);
+  }
+
+  20% {
+    background: linear-gradient(0deg, var(--accent) 20%, transparent 20%);
+  }
+
+  25% {
+    background: linear-gradient(0deg, var(--accent) 25%, transparent 25%);
+  }
+
+  30% {
+    background: linear-gradient(0deg, var(--accent) 30%, transparent 30%);
+  }
+
+  35% {
+    background: linear-gradient(0deg, var(--accent) 35%, transparent 35%);
+  }
+
+  40% {
+    background: linear-gradient(0deg, var(--accent) 40%, transparent 40%);
+  }
+
+  45% {
+    background: linear-gradient(0deg, var(--accent) 45%, transparent 45%);
+  }
+
+  50% {
+    background: linear-gradient(0deg, var(--accent) 50%, transparent 50%);
+  }
+
+  55% {
+    background: linear-gradient(0deg, var(--accent) 55%, transparent 55%);
+  }
+
+  60% {
+    background: linear-gradient(0deg, var(--accent) 60%, transparent 60%);
+  }
+
+  65% {
+    background: linear-gradient(0deg, var(--accent) 65%, transparent 65%);
+  }
+
+  70% {
+    background: linear-gradient(0deg, var(--accent) 70%, transparent 70%);
+  }
+
+  75% {
+    background: linear-gradient(0deg, var(--accent) 75%, transparent 75%);
+  }
+
+  80% {
+    background: linear-gradient(0deg, var(--accent) 80%, transparent 80%);
+  }
+
+  85% {
+    background: linear-gradient(0deg, var(--accent) 85%, transparent 85%);
+  }
+
+  90% {
+    background: linear-gradient(0deg, var(--accent) 90%, transparent 90%);
+  }
+
+  95% {
+    background: linear-gradient(0deg, var(--accent) 95%, transparent 95%);
+  }
+
+  100% {
+    background: linear-gradient(0deg, var(--accent) 100%, transparent 100%);
+  }
+}
+
+@keyframes leftToRightX {
+  0% {
+    background: linear-gradient(180deg, var(--accent) 0%, transparent 0%);
+  }
+
+  5% {
+    background: linear-gradient(180deg, var(--accent) 5%, transparent 5%);
+  }
+
+  10% {
+    background: linear-gradient(180deg, var(--accent) 10%, transparent 10%);
+  }
+
+  15% {
+    background: linear-gradient(180deg, var(--accent) 15%, transparent 15%);
+  }
+
+  20% {
+    background: linear-gradient(180deg, var(--accent) 20%, transparent 20%);
+  }
+
+  25% {
+    background: linear-gradient(180deg, var(--accent) 25%, transparent 25%);
+  }
+
+  30% {
+    background: linear-gradient(180deg, var(--accent) 30%, transparent 30%);
+  }
+
+  35% {
+    background: linear-gradient(180deg, var(--accent) 35%, transparent 35%);
+  }
+
+  40% {
+    background: linear-gradient(180deg, var(--accent) 40%, transparent 40%);
+  }
+
+  45% {
+    background: linear-gradient(180deg, var(--accent) 45%, transparent 45%);
+  }
+
+  50% {
+    background: linear-gradient(180deg, var(--accent) 50%, transparent 50%);
+  }
+
+  55% {
+    background: linear-gradient(180deg, var(--accent) 55%, transparent 55%);
+  }
+
+  60% {
+    background: linear-gradient(180deg, var(--accent) 60%, transparent 60%);
+  }
+
+  65% {
+    background: linear-gradient(180deg, var(--accent) 65%, transparent 65%);
+  }
+
+  70% {
+    background: linear-gradient(180deg, var(--accent) 70%, transparent 70%);
+  }
+
+  75% {
+    background: linear-gradient(180deg, var(--accent) 75%, transparent 75%);
+  }
+
+  80% {
+    background: linear-gradient(180deg, var(--accent) 80%, transparent 80%);
+  }
+
+  85% {
+    background: linear-gradient(180deg, var(--accent) 85%, transparent 85%);
+  }
+
+  90% {
+    background: linear-gradient(180deg, var(--accent) 90%, transparent 90%);
+  }
+
+  95% {
+    background: linear-gradient(180deg, var(--accent) 95%, transparent 95%);
+  }
+
+  100% {
+    background: linear-gradient(180deg, var(--accent) 100%, transparent 100%);
+  }
+}
+
+body {
+  min-height: 100vh;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  color: var(--dark-accent);
+  background: #ffffff;
+  font-weight: 500;
+}
+
+a {
+  color: var(--accent);
+}
+
+a:hover {
+  background-color: var(--accent);
+  color: white;
+}
+
+.credit-text {
+  font-size: 0.9em;
+  font-weight: normal;
+  margin: 10px 0 10px 0;
+  padding: 0;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 250px;
+  min-height: 100vh;
+  margin: auto;
+  flex-direction: column;
+}
+
+h2,
+h1 {
+  flex-shrink: 0;
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 1.35em;
+}
+
+h2 {
+  width: 100%;
+  border-top: 1px solid #eee;
+  padding-top: 20px;
+  font-size: 1.2em;
+}
+
+label {
+  flex-shrink: 0;
+  transition: all 200ms ease-in;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  height: 50px;
+  width: 100%;
+  padding: 0 10px;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+label:hover {
+  border-color: var(--lighter-accent);
+  background: var(--lightest-accent);
+}
+
+label.selected {
+  border-color: var(--light-accent);
+  background: var(--lighter-accent);
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  position: absolute;
+  opacity: 0;
+}
+
+.radio-ghost {
+  position: relative;
+  display: block;
+  width: 18px;
+  height: 18px;
+  border-radius: 18px;
+  border: 3px solid var(--accent);
+  margin-right: 10px;
+  transition: all 200ms ease-in;
+}
+
+.radio-ghost::before {
+  transition: all 150ms ease-in;
+  transform: scale(0.2);
+  display: block;
+  position: absolute;
+  content: "";
+  width: 14px;
+  height: 14px;
+  background-color: var(--accent);
+  border-radius: 7px;
+  left: 2px;
+  top: 2px;
+  bottom: 2px;
+  right: 2px;
+  opacity: 0;
+}
+
+label.selected .radio-ghost::before {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.radio-ghost-two {
+  position: relative;
+  display: block;
+  width: 18px;
+  height: 18px;
+  border-radius: 18px;
+  border: 3px solid var(--accent);
+  margin-right: 10px;
+  transition: all 200ms ease-in;
+}
+
+.radio-ghost-two::before {
+  transition: all 200ms ease-in;
+  transform: scale(1);
+  display: block;
+  position: absolute;
+  content: "";
+  width: 18px;
+  height: 18px;
+  background-color: var(--accent);
+  border-radius: 10px;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  opacity: 0;
+}
+
+label.selected .radio-ghost-two::before {
+  opacity: 1;
+  transform: scale(0.7);
+}
+
+.checkbox-ghost {
+  position: relative;
+  display: block;
+  width: 15px;
+  height: 15px;
+  border-radius: 5px;
+  border: 3px solid var(--accent);
+  margin-right: 10px;
+  transition: all 200ms ease-in;
+}
+
+label.selected .checkbox-ghost::before {
+  animation: leftToRightX 100ms linear forwards;
+  transform: rotate(-45deg);
+  display: block;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 3px;
+  border-radius: 4px;
+  height: 15px;
+  margin-left: 6px;
+}
+
+label.selected .checkbox-ghost::after {
+  animation: rightToLeftX 100ms linear forwards;
+  animation-delay: 100ms;
+  transform: rotate(45deg);
+  display: block;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 3px;
+  border-radius: 4px;
+  height: 15px;
+  margin-left: 6px;
+}
+
+.checkbox-ghost-2 {
+  position: relative;
+  display: block;
+  width: 15px;
+  height: 15px;
+  border-radius: 5px;
+  border: 3px solid var(--accent);
+  margin-right: 10px;
+  transition: all 200ms ease-in;
+}
+
+label.selected .checkbox-ghost-2 {
+  animation: rightToLeftX 100ms linear forwards;
+}
+
+label.selected .checkbox-ghost-2::before {
+  animation: leftToRightXWhite 100ms linear forwards;
+  animation-delay: 150ms;
+  transform: rotate(-45deg);
+  display: block;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 3px;
+  border-radius: 4px;
+  height: 15px;
+  margin-left: 6px;
+}
+
+label.selected .checkbox-ghost-2::after {
+  animation: leftToRightXWhite 100ms linear forwards;
+  animation-delay: 250ms;
+  transform: rotate(45deg);
+  display: block;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 3px;
+  border-radius: 4px;
+  height: 15px;
+  margin-left: 6px;
+}

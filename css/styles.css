@@ -6,4 +6,983 @@ body {
 body p {
   padding: 0;
 }
+
+html {
+  --accent: #493eff;
+  --dark-accent: #1b1854;
+  --light-accent: #d6d4f3;
+  --lighter-accent: #f4f3ff;
+  --lightest-accent: #fcfcff;
+}
+
+@-webkit-keyframes rightToLeftXWhite {
+  0% {
+    background: -webkit-gradient(linear, left bottom, left top, from(#ffffff), color-stop(0%, transparent));
+    background: linear-gradient(0deg, #ffffff 0%, transparent 0%);
+  }
+  5% {
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(5%, #ffffff), color-stop(5%, transparent));
+    background: linear-gradient(0deg, #ffffff 5%, transparent 5%);
+  }
+  10% {
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(10%, #ffffff), color-stop(10%, transparent));
+    background: linear-gradient(0deg, #ffffff 10%, transparent 10%);
+  }
+  15% {
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(15%, #ffffff), color-stop(15%, transparent));
+    background: linear-gradient(0deg, #ffffff 15%, transparent 15%);
+  }
+  20% {
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(20%, #ffffff), color-stop(20%, transparent));
+    background: linear-gradient(0deg, #ffffff 20%, transparent 20%);
+  }
+  25% {
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(25%, #ffffff), color-stop(25%, transparent));
+    background: linear-gradient(0deg, #ffffff 25%, transparent 25%);
+  }
+  30% {
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(30%, #ffffff), color-stop(30%, transparent));
+    background: linear-gradient(0deg, #ffffff 30%, transparent 30%);
+  }
+  35% {
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(35%, #ffffff), color-stop(35%, transparent));
+    background: linear-gradient(0deg, #ffffff 35%, transparent 35%);
+  }
+  40% {
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(40%, #ffffff), color-stop(40%, transparent));
+    background: linear-gradient(0deg, #ffffff 40%, transparent 40%);
+  }
+  45% {
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(45%, #ffffff), color-stop(45%, transparent));
+    background: linear-gradient(0deg, #ffffff 45%, transparent 45%);
+  }
+  50% {
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(50%, #ffffff), color-stop(50%, transparent));
+    background: linear-gradient(0deg, #ffffff 50%, transparent 50%);
+  }
+  55% {
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(55%, #ffffff), color-stop(55%, transparent));
+    background: linear-gradient(0deg, #ffffff 55%, transparent 55%);
+  }
+  60% {
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(60%, #ffffff), color-stop(60%, transparent));
+    background: linear-gradient(0deg, #ffffff 60%, transparent 60%);
+  }
+  65% {
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(65%, #ffffff), color-stop(65%, transparent));
+    background: linear-gradient(0deg, #ffffff 65%, transparent 65%);
+  }
+  70% {
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(70%, #ffffff), color-stop(70%, transparent));
+    background: linear-gradient(0deg, #ffffff 70%, transparent 70%);
+  }
+  75% {
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(75%, #ffffff), color-stop(75%, transparent));
+    background: linear-gradient(0deg, #ffffff 75%, transparent 75%);
+  }
+  80% {
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(80%, #ffffff), color-stop(80%, transparent));
+    background: linear-gradient(0deg, #ffffff 80%, transparent 80%);
+  }
+  85% {
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(85%, #ffffff), color-stop(85%, transparent));
+    background: linear-gradient(0deg, #ffffff 85%, transparent 85%);
+  }
+  90% {
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(90%, #ffffff), color-stop(90%, transparent));
+    background: linear-gradient(0deg, #ffffff 90%, transparent 90%);
+  }
+  95% {
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(95%, #ffffff), color-stop(95%, transparent));
+    background: linear-gradient(0deg, #ffffff 95%, transparent 95%);
+  }
+  100% {
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(100%, #ffffff), to(transparent));
+    background: linear-gradient(0deg, #ffffff 100%, transparent 100%);
+  }
+}
+
+@keyframes rightToLeftXWhite {
+  0% {
+    background: -webkit-gradient(linear, left bottom, left top, from(#ffffff), color-stop(0%, transparent));
+    background: linear-gradient(0deg, #ffffff 0%, transparent 0%);
+  }
+  5% {
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(5%, #ffffff), color-stop(5%, transparent));
+    background: linear-gradient(0deg, #ffffff 5%, transparent 5%);
+  }
+  10% {
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(10%, #ffffff), color-stop(10%, transparent));
+    background: linear-gradient(0deg, #ffffff 10%, transparent 10%);
+  }
+  15% {
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(15%, #ffffff), color-stop(15%, transparent));
+    background: linear-gradient(0deg, #ffffff 15%, transparent 15%);
+  }
+  20% {
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(20%, #ffffff), color-stop(20%, transparent));
+    background: linear-gradient(0deg, #ffffff 20%, transparent 20%);
+  }
+  25% {
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(25%, #ffffff), color-stop(25%, transparent));
+    background: linear-gradient(0deg, #ffffff 25%, transparent 25%);
+  }
+  30% {
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(30%, #ffffff), color-stop(30%, transparent));
+    background: linear-gradient(0deg, #ffffff 30%, transparent 30%);
+  }
+  35% {
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(35%, #ffffff), color-stop(35%, transparent));
+    background: linear-gradient(0deg, #ffffff 35%, transparent 35%);
+  }
+  40% {
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(40%, #ffffff), color-stop(40%, transparent));
+    background: linear-gradient(0deg, #ffffff 40%, transparent 40%);
+  }
+  45% {
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(45%, #ffffff), color-stop(45%, transparent));
+    background: linear-gradient(0deg, #ffffff 45%, transparent 45%);
+  }
+  50% {
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(50%, #ffffff), color-stop(50%, transparent));
+    background: linear-gradient(0deg, #ffffff 50%, transparent 50%);
+  }
+  55% {
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(55%, #ffffff), color-stop(55%, transparent));
+    background: linear-gradient(0deg, #ffffff 55%, transparent 55%);
+  }
+  60% {
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(60%, #ffffff), color-stop(60%, transparent));
+    background: linear-gradient(0deg, #ffffff 60%, transparent 60%);
+  }
+  65% {
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(65%, #ffffff), color-stop(65%, transparent));
+    background: linear-gradient(0deg, #ffffff 65%, transparent 65%);
+  }
+  70% {
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(70%, #ffffff), color-stop(70%, transparent));
+    background: linear-gradient(0deg, #ffffff 70%, transparent 70%);
+  }
+  75% {
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(75%, #ffffff), color-stop(75%, transparent));
+    background: linear-gradient(0deg, #ffffff 75%, transparent 75%);
+  }
+  80% {
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(80%, #ffffff), color-stop(80%, transparent));
+    background: linear-gradient(0deg, #ffffff 80%, transparent 80%);
+  }
+  85% {
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(85%, #ffffff), color-stop(85%, transparent));
+    background: linear-gradient(0deg, #ffffff 85%, transparent 85%);
+  }
+  90% {
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(90%, #ffffff), color-stop(90%, transparent));
+    background: linear-gradient(0deg, #ffffff 90%, transparent 90%);
+  }
+  95% {
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(95%, #ffffff), color-stop(95%, transparent));
+    background: linear-gradient(0deg, #ffffff 95%, transparent 95%);
+  }
+  100% {
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(100%, #ffffff), to(transparent));
+    background: linear-gradient(0deg, #ffffff 100%, transparent 100%);
+  }
+}
+
+@-webkit-keyframes leftToRightXWhite {
+  0% {
+    background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), color-stop(0%, transparent));
+    background: linear-gradient(180deg, #ffffff 0%, transparent 0%);
+  }
+  5% {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #ffffff), color-stop(5%, transparent));
+    background: linear-gradient(180deg, #ffffff 5%, transparent 5%);
+  }
+  10% {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(10%, #ffffff), color-stop(10%, transparent));
+    background: linear-gradient(180deg, #ffffff 10%, transparent 10%);
+  }
+  15% {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(15%, #ffffff), color-stop(15%, transparent));
+    background: linear-gradient(180deg, #ffffff 15%, transparent 15%);
+  }
+  20% {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(20%, #ffffff), color-stop(20%, transparent));
+    background: linear-gradient(180deg, #ffffff 20%, transparent 20%);
+  }
+  25% {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(25%, #ffffff), color-stop(25%, transparent));
+    background: linear-gradient(180deg, #ffffff 25%, transparent 25%);
+  }
+  30% {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(30%, #ffffff), color-stop(30%, transparent));
+    background: linear-gradient(180deg, #ffffff 30%, transparent 30%);
+  }
+  35% {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(35%, #ffffff), color-stop(35%, transparent));
+    background: linear-gradient(180deg, #ffffff 35%, transparent 35%);
+  }
+  40% {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(40%, #ffffff), color-stop(40%, transparent));
+    background: linear-gradient(180deg, #ffffff 40%, transparent 40%);
+  }
+  45% {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(45%, #ffffff), color-stop(45%, transparent));
+    background: linear-gradient(180deg, #ffffff 45%, transparent 45%);
+  }
+  50% {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #ffffff), color-stop(50%, transparent));
+    background: linear-gradient(180deg, #ffffff 50%, transparent 50%);
+  }
+  55% {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(55%, #ffffff), color-stop(55%, transparent));
+    background: linear-gradient(180deg, #ffffff 55%, transparent 55%);
+  }
+  60% {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(60%, #ffffff), color-stop(60%, transparent));
+    background: linear-gradient(180deg, #ffffff 60%, transparent 60%);
+  }
+  65% {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(65%, #ffffff), color-stop(65%, transparent));
+    background: linear-gradient(180deg, #ffffff 65%, transparent 65%);
+  }
+  70% {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(70%, #ffffff), color-stop(70%, transparent));
+    background: linear-gradient(180deg, #ffffff 70%, transparent 70%);
+  }
+  75% {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(75%, #ffffff), color-stop(75%, transparent));
+    background: linear-gradient(180deg, #ffffff 75%, transparent 75%);
+  }
+  80% {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(80%, #ffffff), color-stop(80%, transparent));
+    background: linear-gradient(180deg, #ffffff 80%, transparent 80%);
+  }
+  85% {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(85%, #ffffff), color-stop(85%, transparent));
+    background: linear-gradient(180deg, #ffffff 85%, transparent 85%);
+  }
+  90% {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(90%, #ffffff), color-stop(90%, transparent));
+    background: linear-gradient(180deg, #ffffff 90%, transparent 90%);
+  }
+  95% {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(95%, #ffffff), color-stop(95%, transparent));
+    background: linear-gradient(180deg, #ffffff 95%, transparent 95%);
+  }
+  100% {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(100%, #ffffff), to(transparent));
+    background: linear-gradient(180deg, #ffffff 100%, transparent 100%);
+  }
+}
+
+@keyframes leftToRightXWhite {
+  0% {
+    background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), color-stop(0%, transparent));
+    background: linear-gradient(180deg, #ffffff 0%, transparent 0%);
+  }
+  5% {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #ffffff), color-stop(5%, transparent));
+    background: linear-gradient(180deg, #ffffff 5%, transparent 5%);
+  }
+  10% {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(10%, #ffffff), color-stop(10%, transparent));
+    background: linear-gradient(180deg, #ffffff 10%, transparent 10%);
+  }
+  15% {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(15%, #ffffff), color-stop(15%, transparent));
+    background: linear-gradient(180deg, #ffffff 15%, transparent 15%);
+  }
+  20% {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(20%, #ffffff), color-stop(20%, transparent));
+    background: linear-gradient(180deg, #ffffff 20%, transparent 20%);
+  }
+  25% {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(25%, #ffffff), color-stop(25%, transparent));
+    background: linear-gradient(180deg, #ffffff 25%, transparent 25%);
+  }
+  30% {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(30%, #ffffff), color-stop(30%, transparent));
+    background: linear-gradient(180deg, #ffffff 30%, transparent 30%);
+  }
+  35% {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(35%, #ffffff), color-stop(35%, transparent));
+    background: linear-gradient(180deg, #ffffff 35%, transparent 35%);
+  }
+  40% {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(40%, #ffffff), color-stop(40%, transparent));
+    background: linear-gradient(180deg, #ffffff 40%, transparent 40%);
+  }
+  45% {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(45%, #ffffff), color-stop(45%, transparent));
+    background: linear-gradient(180deg, #ffffff 45%, transparent 45%);
+  }
+  50% {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #ffffff), color-stop(50%, transparent));
+    background: linear-gradient(180deg, #ffffff 50%, transparent 50%);
+  }
+  55% {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(55%, #ffffff), color-stop(55%, transparent));
+    background: linear-gradient(180deg, #ffffff 55%, transparent 55%);
+  }
+  60% {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(60%, #ffffff), color-stop(60%, transparent));
+    background: linear-gradient(180deg, #ffffff 60%, transparent 60%);
+  }
+  65% {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(65%, #ffffff), color-stop(65%, transparent));
+    background: linear-gradient(180deg, #ffffff 65%, transparent 65%);
+  }
+  70% {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(70%, #ffffff), color-stop(70%, transparent));
+    background: linear-gradient(180deg, #ffffff 70%, transparent 70%);
+  }
+  75% {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(75%, #ffffff), color-stop(75%, transparent));
+    background: linear-gradient(180deg, #ffffff 75%, transparent 75%);
+  }
+  80% {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(80%, #ffffff), color-stop(80%, transparent));
+    background: linear-gradient(180deg, #ffffff 80%, transparent 80%);
+  }
+  85% {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(85%, #ffffff), color-stop(85%, transparent));
+    background: linear-gradient(180deg, #ffffff 85%, transparent 85%);
+  }
+  90% {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(90%, #ffffff), color-stop(90%, transparent));
+    background: linear-gradient(180deg, #ffffff 90%, transparent 90%);
+  }
+  95% {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(95%, #ffffff), color-stop(95%, transparent));
+    background: linear-gradient(180deg, #ffffff 95%, transparent 95%);
+  }
+  100% {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(100%, #ffffff), to(transparent));
+    background: linear-gradient(180deg, #ffffff 100%, transparent 100%);
+  }
+}
+
+@-webkit-keyframes rightToLeftX {
+  0% {
+    background: -webkit-gradient(linear, left bottom, left top, from(var(--accent)), color-stop(0%, transparent));
+    background: linear-gradient(0deg, var(--accent) 0%, transparent 0%);
+  }
+  5% {
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(5%, var(--accent)), color-stop(5%, transparent));
+    background: linear-gradient(0deg, var(--accent) 5%, transparent 5%);
+  }
+  10% {
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(10%, var(--accent)), color-stop(10%, transparent));
+    background: linear-gradient(0deg, var(--accent) 10%, transparent 10%);
+  }
+  15% {
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(15%, var(--accent)), color-stop(15%, transparent));
+    background: linear-gradient(0deg, var(--accent) 15%, transparent 15%);
+  }
+  20% {
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(20%, var(--accent)), color-stop(20%, transparent));
+    background: linear-gradient(0deg, var(--accent) 20%, transparent 20%);
+  }
+  25% {
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(25%, var(--accent)), color-stop(25%, transparent));
+    background: linear-gradient(0deg, var(--accent) 25%, transparent 25%);
+  }
+  30% {
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(30%, var(--accent)), color-stop(30%, transparent));
+    background: linear-gradient(0deg, var(--accent) 30%, transparent 30%);
+  }
+  35% {
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(35%, var(--accent)), color-stop(35%, transparent));
+    background: linear-gradient(0deg, var(--accent) 35%, transparent 35%);
+  }
+  40% {
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(40%, var(--accent)), color-stop(40%, transparent));
+    background: linear-gradient(0deg, var(--accent) 40%, transparent 40%);
+  }
+  45% {
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(45%, var(--accent)), color-stop(45%, transparent));
+    background: linear-gradient(0deg, var(--accent) 45%, transparent 45%);
+  }
+  50% {
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(50%, var(--accent)), color-stop(50%, transparent));
+    background: linear-gradient(0deg, var(--accent) 50%, transparent 50%);
+  }
+  55% {
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(55%, var(--accent)), color-stop(55%, transparent));
+    background: linear-gradient(0deg, var(--accent) 55%, transparent 55%);
+  }
+  60% {
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(60%, var(--accent)), color-stop(60%, transparent));
+    background: linear-gradient(0deg, var(--accent) 60%, transparent 60%);
+  }
+  65% {
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(65%, var(--accent)), color-stop(65%, transparent));
+    background: linear-gradient(0deg, var(--accent) 65%, transparent 65%);
+  }
+  70% {
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(70%, var(--accent)), color-stop(70%, transparent));
+    background: linear-gradient(0deg, var(--accent) 70%, transparent 70%);
+  }
+  75% {
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(75%, var(--accent)), color-stop(75%, transparent));
+    background: linear-gradient(0deg, var(--accent) 75%, transparent 75%);
+  }
+  80% {
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(80%, var(--accent)), color-stop(80%, transparent));
+    background: linear-gradient(0deg, var(--accent) 80%, transparent 80%);
+  }
+  85% {
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(85%, var(--accent)), color-stop(85%, transparent));
+    background: linear-gradient(0deg, var(--accent) 85%, transparent 85%);
+  }
+  90% {
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(90%, var(--accent)), color-stop(90%, transparent));
+    background: linear-gradient(0deg, var(--accent) 90%, transparent 90%);
+  }
+  95% {
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(95%, var(--accent)), color-stop(95%, transparent));
+    background: linear-gradient(0deg, var(--accent) 95%, transparent 95%);
+  }
+  100% {
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(100%, var(--accent)), to(transparent));
+    background: linear-gradient(0deg, var(--accent) 100%, transparent 100%);
+  }
+}
+
+@keyframes rightToLeftX {
+  0% {
+    background: -webkit-gradient(linear, left bottom, left top, from(var(--accent)), color-stop(0%, transparent));
+    background: linear-gradient(0deg, var(--accent) 0%, transparent 0%);
+  }
+  5% {
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(5%, var(--accent)), color-stop(5%, transparent));
+    background: linear-gradient(0deg, var(--accent) 5%, transparent 5%);
+  }
+  10% {
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(10%, var(--accent)), color-stop(10%, transparent));
+    background: linear-gradient(0deg, var(--accent) 10%, transparent 10%);
+  }
+  15% {
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(15%, var(--accent)), color-stop(15%, transparent));
+    background: linear-gradient(0deg, var(--accent) 15%, transparent 15%);
+  }
+  20% {
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(20%, var(--accent)), color-stop(20%, transparent));
+    background: linear-gradient(0deg, var(--accent) 20%, transparent 20%);
+  }
+  25% {
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(25%, var(--accent)), color-stop(25%, transparent));
+    background: linear-gradient(0deg, var(--accent) 25%, transparent 25%);
+  }
+  30% {
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(30%, var(--accent)), color-stop(30%, transparent));
+    background: linear-gradient(0deg, var(--accent) 30%, transparent 30%);
+  }
+  35% {
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(35%, var(--accent)), color-stop(35%, transparent));
+    background: linear-gradient(0deg, var(--accent) 35%, transparent 35%);
+  }
+  40% {
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(40%, var(--accent)), color-stop(40%, transparent));
+    background: linear-gradient(0deg, var(--accent) 40%, transparent 40%);
+  }
+  45% {
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(45%, var(--accent)), color-stop(45%, transparent));
+    background: linear-gradient(0deg, var(--accent) 45%, transparent 45%);
+  }
+  50% {
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(50%, var(--accent)), color-stop(50%, transparent));
+    background: linear-gradient(0deg, var(--accent) 50%, transparent 50%);
+  }
+  55% {
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(55%, var(--accent)), color-stop(55%, transparent));
+    background: linear-gradient(0deg, var(--accent) 55%, transparent 55%);
+  }
+  60% {
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(60%, var(--accent)), color-stop(60%, transparent));
+    background: linear-gradient(0deg, var(--accent) 60%, transparent 60%);
+  }
+  65% {
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(65%, var(--accent)), color-stop(65%, transparent));
+    background: linear-gradient(0deg, var(--accent) 65%, transparent 65%);
+  }
+  70% {
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(70%, var(--accent)), color-stop(70%, transparent));
+    background: linear-gradient(0deg, var(--accent) 70%, transparent 70%);
+  }
+  75% {
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(75%, var(--accent)), color-stop(75%, transparent));
+    background: linear-gradient(0deg, var(--accent) 75%, transparent 75%);
+  }
+  80% {
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(80%, var(--accent)), color-stop(80%, transparent));
+    background: linear-gradient(0deg, var(--accent) 80%, transparent 80%);
+  }
+  85% {
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(85%, var(--accent)), color-stop(85%, transparent));
+    background: linear-gradient(0deg, var(--accent) 85%, transparent 85%);
+  }
+  90% {
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(90%, var(--accent)), color-stop(90%, transparent));
+    background: linear-gradient(0deg, var(--accent) 90%, transparent 90%);
+  }
+  95% {
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(95%, var(--accent)), color-stop(95%, transparent));
+    background: linear-gradient(0deg, var(--accent) 95%, transparent 95%);
+  }
+  100% {
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(100%, var(--accent)), to(transparent));
+    background: linear-gradient(0deg, var(--accent) 100%, transparent 100%);
+  }
+}
+
+@-webkit-keyframes leftToRightX {
+  0% {
+    background: -webkit-gradient(linear, left top, left bottom, from(var(--accent)), color-stop(0%, transparent));
+    background: linear-gradient(180deg, var(--accent) 0%, transparent 0%);
+  }
+  5% {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, var(--accent)), color-stop(5%, transparent));
+    background: linear-gradient(180deg, var(--accent) 5%, transparent 5%);
+  }
+  10% {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(10%, var(--accent)), color-stop(10%, transparent));
+    background: linear-gradient(180deg, var(--accent) 10%, transparent 10%);
+  }
+  15% {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(15%, var(--accent)), color-stop(15%, transparent));
+    background: linear-gradient(180deg, var(--accent) 15%, transparent 15%);
+  }
+  20% {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(20%, var(--accent)), color-stop(20%, transparent));
+    background: linear-gradient(180deg, var(--accent) 20%, transparent 20%);
+  }
+  25% {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(25%, var(--accent)), color-stop(25%, transparent));
+    background: linear-gradient(180deg, var(--accent) 25%, transparent 25%);
+  }
+  30% {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(30%, var(--accent)), color-stop(30%, transparent));
+    background: linear-gradient(180deg, var(--accent) 30%, transparent 30%);
+  }
+  35% {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(35%, var(--accent)), color-stop(35%, transparent));
+    background: linear-gradient(180deg, var(--accent) 35%, transparent 35%);
+  }
+  40% {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(40%, var(--accent)), color-stop(40%, transparent));
+    background: linear-gradient(180deg, var(--accent) 40%, transparent 40%);
+  }
+  45% {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(45%, var(--accent)), color-stop(45%, transparent));
+    background: linear-gradient(180deg, var(--accent) 45%, transparent 45%);
+  }
+  50% {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, var(--accent)), color-stop(50%, transparent));
+    background: linear-gradient(180deg, var(--accent) 50%, transparent 50%);
+  }
+  55% {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(55%, var(--accent)), color-stop(55%, transparent));
+    background: linear-gradient(180deg, var(--accent) 55%, transparent 55%);
+  }
+  60% {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(60%, var(--accent)), color-stop(60%, transparent));
+    background: linear-gradient(180deg, var(--accent) 60%, transparent 60%);
+  }
+  65% {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(65%, var(--accent)), color-stop(65%, transparent));
+    background: linear-gradient(180deg, var(--accent) 65%, transparent 65%);
+  }
+  70% {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(70%, var(--accent)), color-stop(70%, transparent));
+    background: linear-gradient(180deg, var(--accent) 70%, transparent 70%);
+  }
+  75% {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(75%, var(--accent)), color-stop(75%, transparent));
+    background: linear-gradient(180deg, var(--accent) 75%, transparent 75%);
+  }
+  80% {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(80%, var(--accent)), color-stop(80%, transparent));
+    background: linear-gradient(180deg, var(--accent) 80%, transparent 80%);
+  }
+  85% {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(85%, var(--accent)), color-stop(85%, transparent));
+    background: linear-gradient(180deg, var(--accent) 85%, transparent 85%);
+  }
+  90% {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(90%, var(--accent)), color-stop(90%, transparent));
+    background: linear-gradient(180deg, var(--accent) 90%, transparent 90%);
+  }
+  95% {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(95%, var(--accent)), color-stop(95%, transparent));
+    background: linear-gradient(180deg, var(--accent) 95%, transparent 95%);
+  }
+  100% {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(100%, var(--accent)), to(transparent));
+    background: linear-gradient(180deg, var(--accent) 100%, transparent 100%);
+  }
+}
+
+@keyframes leftToRightX {
+  0% {
+    background: -webkit-gradient(linear, left top, left bottom, from(var(--accent)), color-stop(0%, transparent));
+    background: linear-gradient(180deg, var(--accent) 0%, transparent 0%);
+  }
+  5% {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, var(--accent)), color-stop(5%, transparent));
+    background: linear-gradient(180deg, var(--accent) 5%, transparent 5%);
+  }
+  10% {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(10%, var(--accent)), color-stop(10%, transparent));
+    background: linear-gradient(180deg, var(--accent) 10%, transparent 10%);
+  }
+  15% {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(15%, var(--accent)), color-stop(15%, transparent));
+    background: linear-gradient(180deg, var(--accent) 15%, transparent 15%);
+  }
+  20% {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(20%, var(--accent)), color-stop(20%, transparent));
+    background: linear-gradient(180deg, var(--accent) 20%, transparent 20%);
+  }
+  25% {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(25%, var(--accent)), color-stop(25%, transparent));
+    background: linear-gradient(180deg, var(--accent) 25%, transparent 25%);
+  }
+  30% {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(30%, var(--accent)), color-stop(30%, transparent));
+    background: linear-gradient(180deg, var(--accent) 30%, transparent 30%);
+  }
+  35% {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(35%, var(--accent)), color-stop(35%, transparent));
+    background: linear-gradient(180deg, var(--accent) 35%, transparent 35%);
+  }
+  40% {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(40%, var(--accent)), color-stop(40%, transparent));
+    background: linear-gradient(180deg, var(--accent) 40%, transparent 40%);
+  }
+  45% {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(45%, var(--accent)), color-stop(45%, transparent));
+    background: linear-gradient(180deg, var(--accent) 45%, transparent 45%);
+  }
+  50% {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, var(--accent)), color-stop(50%, transparent));
+    background: linear-gradient(180deg, var(--accent) 50%, transparent 50%);
+  }
+  55% {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(55%, var(--accent)), color-stop(55%, transparent));
+    background: linear-gradient(180deg, var(--accent) 55%, transparent 55%);
+  }
+  60% {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(60%, var(--accent)), color-stop(60%, transparent));
+    background: linear-gradient(180deg, var(--accent) 60%, transparent 60%);
+  }
+  65% {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(65%, var(--accent)), color-stop(65%, transparent));
+    background: linear-gradient(180deg, var(--accent) 65%, transparent 65%);
+  }
+  70% {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(70%, var(--accent)), color-stop(70%, transparent));
+    background: linear-gradient(180deg, var(--accent) 70%, transparent 70%);
+  }
+  75% {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(75%, var(--accent)), color-stop(75%, transparent));
+    background: linear-gradient(180deg, var(--accent) 75%, transparent 75%);
+  }
+  80% {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(80%, var(--accent)), color-stop(80%, transparent));
+    background: linear-gradient(180deg, var(--accent) 80%, transparent 80%);
+  }
+  85% {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(85%, var(--accent)), color-stop(85%, transparent));
+    background: linear-gradient(180deg, var(--accent) 85%, transparent 85%);
+  }
+  90% {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(90%, var(--accent)), color-stop(90%, transparent));
+    background: linear-gradient(180deg, var(--accent) 90%, transparent 90%);
+  }
+  95% {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(95%, var(--accent)), color-stop(95%, transparent));
+    background: linear-gradient(180deg, var(--accent) 95%, transparent 95%);
+  }
+  100% {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(100%, var(--accent)), to(transparent));
+    background: linear-gradient(180deg, var(--accent) 100%, transparent 100%);
+  }
+}
+
+body {
+  min-height: 100vh;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  color: var(--dark-accent);
+  background: #ffffff;
+  font-weight: 500;
+}
+
+a {
+  color: var(--accent);
+}
+
+a:hover {
+  background-color: var(--accent);
+  color: white;
+}
+
+.credit-text {
+  font-size: 0.9em;
+  font-weight: normal;
+  margin: 10px 0 10px 0;
+  padding: 0;
+  text-align: center;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+
+form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 250px;
+  min-height: 100vh;
+  margin: auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+h2,
+h1 {
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 1.35em;
+}
+
+h2 {
+  width: 100%;
+  border-top: 1px solid #eee;
+  padding-top: 20px;
+  font-size: 1.2em;
+}
+
+label {
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  -webkit-transition: all 200ms ease-in;
+  transition: all 200ms ease-in;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+  height: 50px;
+  width: 100%;
+  padding: 0 10px;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+label:hover {
+  border-color: var(--lighter-accent);
+  background: var(--lightest-accent);
+}
+
+label.selected {
+  border-color: var(--light-accent);
+  background: var(--lighter-accent);
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  position: absolute;
+  opacity: 0;
+}
+
+.radio-ghost {
+  position: relative;
+  display: block;
+  width: 18px;
+  height: 18px;
+  border-radius: 18px;
+  border: 3px solid var(--accent);
+  margin-right: 10px;
+  -webkit-transition: all 200ms ease-in;
+  transition: all 200ms ease-in;
+}
+
+.radio-ghost::before {
+  -webkit-transition: all 150ms ease-in;
+  transition: all 150ms ease-in;
+  -webkit-transform: scale(0.2);
+          transform: scale(0.2);
+  display: block;
+  position: absolute;
+  content: "";
+  width: 14px;
+  height: 14px;
+  background-color: var(--accent);
+  border-radius: 7px;
+  left: 2px;
+  top: 2px;
+  bottom: 2px;
+  right: 2px;
+  opacity: 0;
+}
+
+label.selected .radio-ghost::before {
+  opacity: 1;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.radio-ghost-two {
+  position: relative;
+  display: block;
+  width: 18px;
+  height: 18px;
+  border-radius: 18px;
+  border: 3px solid var(--accent);
+  margin-right: 10px;
+  -webkit-transition: all 200ms ease-in;
+  transition: all 200ms ease-in;
+}
+
+.radio-ghost-two::before {
+  -webkit-transition: all 200ms ease-in;
+  transition: all 200ms ease-in;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  display: block;
+  position: absolute;
+  content: "";
+  width: 18px;
+  height: 18px;
+  background-color: var(--accent);
+  border-radius: 10px;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  opacity: 0;
+}
+
+label.selected .radio-ghost-two::before {
+  opacity: 1;
+  -webkit-transform: scale(0.7);
+          transform: scale(0.7);
+}
+
+.checkbox-ghost {
+  position: relative;
+  display: block;
+  width: 15px;
+  height: 15px;
+  border-radius: 5px;
+  border: 3px solid var(--accent);
+  margin-right: 10px;
+  -webkit-transition: all 200ms ease-in;
+  transition: all 200ms ease-in;
+}
+
+label.selected .checkbox-ghost::before {
+  -webkit-animation: leftToRightX 100ms linear forwards;
+          animation: leftToRightX 100ms linear forwards;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  display: block;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 3px;
+  border-radius: 4px;
+  height: 15px;
+  margin-left: 6px;
+}
+
+label.selected .checkbox-ghost::after {
+  -webkit-animation: rightToLeftX 100ms linear forwards;
+          animation: rightToLeftX 100ms linear forwards;
+  -webkit-animation-delay: 100ms;
+          animation-delay: 100ms;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  display: block;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 3px;
+  border-radius: 4px;
+  height: 15px;
+  margin-left: 6px;
+}
+
+.checkbox-ghost-2 {
+  position: relative;
+  display: block;
+  width: 15px;
+  height: 15px;
+  border-radius: 5px;
+  border: 3px solid var(--accent);
+  margin-right: 10px;
+  -webkit-transition: all 200ms ease-in;
+  transition: all 200ms ease-in;
+}
+
+label.selected .checkbox-ghost-2 {
+  -webkit-animation: rightToLeftX 100ms linear forwards;
+          animation: rightToLeftX 100ms linear forwards;
+}
+
+label.selected .checkbox-ghost-2::before {
+  -webkit-animation: leftToRightXWhite 100ms linear forwards;
+          animation: leftToRightXWhite 100ms linear forwards;
+  -webkit-animation-delay: 150ms;
+          animation-delay: 150ms;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  display: block;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 3px;
+  border-radius: 4px;
+  height: 15px;
+  margin-left: 6px;
+}
+
+label.selected .checkbox-ghost-2::after {
+  -webkit-animation: leftToRightXWhite 100ms linear forwards;
+          animation: leftToRightXWhite 100ms linear forwards;
+  -webkit-animation-delay: 250ms;
+          animation-delay: 250ms;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  display: block;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 3px;
+  border-radius: 4px;
+  height: 15px;
+  margin-left: 6px;
+}
 /*# sourceMappingURL=styles.css.map */
